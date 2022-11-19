@@ -1,0 +1,20 @@
+12:30:23 AM: DEBUG [loger_base.py:10] hello
+12:31:31 AM: DEBUG [menuUsuario.py:34] Saliendo de las opciones:
+12:56:25 AM: DEBUG [loger_base.py:10] hello
+12:56:27 AM: DEBUG [cursorDePool.py:10] Se a iniciado el metodo _enter_
+12:56:29 AM: DEBUG [conexcion2.py:27] successful connection 
+12:56:29 AM: DEBUG [conexcion2.py:37] successful connection: <connection object at 0x000001B9CD63C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:56:29 AM: DEBUG [cursorDePool.py:15] se a iniciado el metodo _exit_
+12:56:29 AM: DEBUG [cursorDePool.py:21] commit de la transacion 
+12:56:29 AM: DEBUG [conexcion2.py:43] connection released <connection object at 0x000001B9CD63C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:56:29 AM: INFO [menuUsuario.py:14] values id: 12 username: misa, password: sinfonia
+12:56:29 AM: INFO [menuUsuario.py:14] values id: 13 username: dany, password: manco
+12:56:41 AM: DEBUG [cursorDePool.py:10] Se a iniciado el metodo _enter_
+12:56:41 AM: DEBUG [conexcion2.py:37] successful connection: <connection object at 0x000001B9CD63C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:56:41 AM: DEBUG [usuarioDao.py:32] user insert values id: None username: arquetip, password: 12345678
+12:56:41 AM: DEBUG [cursorDePool.py:15] se a iniciado el metodo _exit_
+12:56:41 AM: DEBUG [cursorDePool.py:21] commit de la transacion 
+12:56:41 AM: DEBUG [conexcion2.py:43] connection released <connection object at 0x000001B9CD63C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:56:41 AM: INFO [menuUsuario.py:20] nuevo usuario 1
+12:56:44 AM: DEBUG [menuUsuario.py:34] Saliendo de las opciones:
+12:56:49 AM: DEBUG [loger_base.py:10] hello
